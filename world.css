@@ -1,1 +1,68 @@
 /* Add your own styles */
+*{
+    font-family:  "Helvetica Neue", sans-serif;
+    
+}
+
+body{
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #142239;
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    height: 90px;
+}
+
+#result table{
+    border-collapse: separate;
+    border: 5px;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+th{
+    background: #122B1D;
+  color: #fff;
+    font-size: 20px;
+}
+
+th,td{
+    padding: 10px 15px;
+    vertical-align: middle;
+    
+}
+td{
+    background-color: #CCBBAD;
+    border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+
+#controls{
+    
+    padding: 20px;
+}
+input{
+    width: 700px;
+    height: 30px;
+}
+button{
+    width: 100px;
+    color: floralwhite;
+    background-color: #142239;
+    border-radius: 10px;
+    height: 30px;
+}
